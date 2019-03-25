@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/more"
+        android:icon="@mipmap/more"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cloud"
+        android:icon="@mipmap/cloud"
+        android:title="Backup"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/more2"
+        android:title="Ssd"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+
+</menu>
